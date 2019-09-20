@@ -2,7 +2,8 @@
 
 ## Instrucciones para instalar
 
-Please read [build from source documentation](https://www.traccar.org/build/) on the official website.
+1. Ejecutar el siguiente git clone: `git clone --recursive https://github.com/SoftwareProyect/traccar-server.git`
+2. Correr el servidor. Hay que escoger entre una de estas tres herramientas: [Netbeans](https://www.traccar.org/build-in-netbeans/), [IntelliJ](https://www.traccar.org/build-in-intellij-idea/) o consola de comandos.
 
 # Instrucción para trabajar encima del proyecto
 Usaremos un estandar de Git llamado Git Flow:
