@@ -4,8 +4,11 @@
 
 Please read [build from source documentation](https://www.traccar.org/build/) on the official website.
 
-## Instrucción para trabajar encima del proyecto
-Crear una rama que se derive de la rama `develop`:
+# Instrucción para trabajar encima del proyecto
+Usaremos un estandar de Git llamado Git Flow:
+![Git Flow](https://3.bp.blogspot.com/-K7fGmmH0kI8/WkHMyoUy3nI/AAAAAAAACA0/oU4PdlbrD_wMY5qerk4h-Btz4eiZH5zogCLcBGAs/s640/03%2B%25282%2529.png)
+
+El primer paso es crear una rama que se derive de la rama `develop`:
 
 ## ¿Cómo nombrar a la rama?
 `feature-verbo infinitivo principal-complemento...`
