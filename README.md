@@ -1,41 +1,25 @@
 # [Traccar](https://www.traccar.org)
-[![Build Status](https://travis-ci.org/traccar/traccar.svg?branch=master)](https://travis-ci.org/traccar/traccar)
 
-## Overview
-
-Traccar is an open source GPS tracking system. This repository contains Java-based back-end service. It supports more than 170 GPS protocols and more than 1500 models of GPS tracking devices. Traccar can be used with any major SQL database system. It also provides easy to use [REST API](https://www.traccar.org/traccar-api/).
-
-Other parts of Traccar solution include:
-
-- [Traccar web app](https://github.com/traccar/traccar-web)
-- [Traccar Manager Android app](https://github.com/traccar/traccar-manager-android)
-- [Traccar Manager iOS app](https://github.com/traccar/traccar-manager-ios)
-
-There is also a set of mobile apps that you can use for tracking mobile devices:
-
-- [Traccar Client Android app](https://github.com/traccar/traccar-client-android)
-- [Traccar Client iOS app](https://github.com/traccar/traccar-client-ios)
-
-## Features
-
-Some of the available features include:
-
-- Real-time GPS tracking
-- Driver behaviour monitoring
-- Detailed and summary reports
-- Geofencing functionality
-- Alarms and notifications
-- Account and device management
-- Email and SMS support
-
-## Build
+## Instrucciones para instalar
 
 Please read [build from source documentation](https://www.traccar.org/build/) on the official website.
 
-## Team
+## Instrucción para trabajar encima del proyecto
+Crear una rama que se derive de la rama `develop`:
 
-- Anton Tananaev ([anton@traccar.org](mailto:anton@traccar.org))
-- Andrey Kunitsyn ([andrey@traccar.org](mailto:andrey@traccar.org))
+## ¿Cómo nombrar a la rama?
+`feature-verbo infinitivo principal-complemento...`
+Ejemplo:
+`feature-cambiar-interfaz-login`
+
+## ¿Cómo subo mi código?
+1. Primero haciendo un commit `git commit -m 'Mensaje del commit'`.
+2. Luego `git push` y copiar el comando que sugiere git para publicar la nueva rama.
+
+## ¿Qué hago después subir?
+1. Se debe hacer un Pull Request de la rama subida hacia `develop`.
+2. Asignar la revisión del PR al Ing. Diego.
+3. Esperar la revisión del PR.💪
 
 ## License
 
